@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <form action="arquivo.php" method="post">
+
+        <legend>LOGIN</legend>
+        <label for="email">Entre com o email</label>
+        <input type="email" id="email">
+        <label for="senha">Entre com a senha</label>
+        <input type="password" id="senha">
+
+        <label for="cor">Clique na sua cor favorita</label>
+        <input type="radio" id="cor" name="cores">verde <br>
+        <input type="radio" id="cor" name="cores">azul <br>
+        <input type="radio" id="cor" name="cores">amarelo <br>
+        <input type="radio" id="cor" name="cores">vermelho <br>
+        <input type="radio" id="cor" name="cores">branco <br>
+
+        <label for="roupas">Entre com suas roupas favoritas</label>
+        <input type="checkbox" name="short" id="roupas">short
+        <input type="checkbox" name="camisa" id="roupas">camisa
+        <input type="checkbox" name="casaco" id="roupas">casaco
+        <input type="checkbox" name="jaqueta" id="roupas">jaqueta
+        <input type="checkbox" name="camiseta" id="roupas">camiseta
+        <br>
+
+        <label for="data">Escolha sua data de nascimento</label>
+        <input type="date " id="data">
+
+        <label for="cor">Escolha sua cor</label>
+        <input type="color" id="cor">
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="APAGAR">
+    </form>
+</body>
+
+</html>

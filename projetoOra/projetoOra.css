@@ -1,0 +1,132 @@
+.viaoda-libre-regular {
+    font-family: "Viaoda Libre", serif;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #162028;
+    justify-content: space-between;
+    padding: 5px 250px;
+}
+
+.header-logo {
+    color: white;
+    font-size: 46px;
+    font-family: Roboto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #425564;
+    font-family: Roboto;
+    text-transform: uppercase;
+
+}
+
+.header-nav a:active,
+a:visited {
+    color: #425564;
+    text-decoration: none;
+}
+
+.hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.hero img {
+    width: 100%;
+    height: fit-content;
+    display: block;
+}
+
+.main-text {
+    color: #425564;
+    margin: 50px 600px;
+    text-align: center;
+    padding: 20px 40px;
+
+}
+
+.main-text-title {
+    font-size: 30px;
+    margin: 10 px 50px;
+}
+
+.main-text-paragraph {
+    font-size: 15px;
+}
+
+.main-container {
+    margin: 40px 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-item {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.main-item img {
+    width: 100%;
+    height: auto;
+}
+
+.main-item-description {
+    color: #555;
+    text-align: center;
+}
+
+.main-item-description h4 {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.about-text {
+    display: block;
+    background-image: url(Projeto-ModaOra-Inicio/inicio/imagens/bg_detalhe.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-wrap: wrap;
+    padding: 20px;
+}
+
+.about-text-title {
+    font-family: Viaoda Libre;
+    color: white;
+    font-size: 52px;
+    margin: 100px 700px 40px 100px;
+    text-align: start;
+}
+
+.about-text-text {
+    color: white;
+    font-size: 32px;
+    text-align: start;
+    margin: 10px 800px 100px 100px;
+}
+
+.footer {
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    padding: 20px;
+}

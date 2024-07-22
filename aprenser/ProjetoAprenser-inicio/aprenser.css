@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    max-width: 250rem;
+    margin: auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #fed001;
+}
+
+p,
+a {
+    font-size: 1.6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: #2a2a2a;
+    padding: 2rem 16rem;
+
+}
+
+.header-nav ul {
+    display: flex;
+    gap: .5rem;
+    list-style-type: none;
+}
+
+.header-nav a {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    text-decoration: none;
+    padding: .75rem 1.15em;
+    gap: 16px;
+}
+
+.header-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(to bottom, orange, red);
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    width: 100%;
+}
+
+.hero-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 150px 60rem 0px 180px;
+    color: black;
+}
+
+.hero-content h1 {
+    font-size: 4.8rem;
+    margin: 0 100rem 0 0;
+}
+
+.hero-content-text-bottom {
+    display: flex;
+    justify-content: start;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.5rem;
+
+}
+
+.hero-content-image {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem 0 150rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    width: auto;
+    height: 40vh;
+}
+
+
+.card-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px 5px 20px;
+}
+
+.card-course-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.card-course h2 {
+    font-size: 3.5rem;
+}
+
+.card-course h3 {
+    font-size: 1.5rem;
+}
+
+.card-course-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+
+}
+
+.card-course-itens {
+    flex-grow: 1;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.card-course-itens img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.card-course-itens-text {
+    text-align: justify;
+    padding: 5px 50px 5px 0;
+}
+
+
+.card-course a {
+    text-align: center;
+    display: inline;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: linear-gradient(to bottom, rgb(00, 24, 24), rgb(0, 97, 132));
+    padding: 20px 0px 0px;
+}
+
+.about-page-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-page-content {
+    gap: 3rem;
+    color: white;
+    display: flex;
+    margin: 0 10rem;
+}
+
+.about-page-escola {
+    margin: .5rem 0 8rem 8rem;
+}
+
+.about-page-escola h2 {
+    margin: 10rem 0 0 0;
+    font-size: 3.2rem;
+    line-height: 1.6px;
+}
+
+.about-page-escola p {
+    font-size: 2.0rem;
+    line-height: 1.75;
+    margin: 5rem 60rem 0 0;
+}
+
+
+.adress-map h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.adress-map {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-size: 20px;
+    padding: 2rem 4rem 3rem 165rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer {
+    background-color: #403939;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+}

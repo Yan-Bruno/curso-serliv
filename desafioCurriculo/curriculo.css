@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(203, 203, 211);
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(58, 57, 57);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: navy;
+    background-color: rgb(191, 174, 226);
+    display: block;
+    text-align: center;
+}
+
+#dado {
+    text-align: center;
+}
+
+.subtitulo {
+    color: navy;
+    background-color: rgb(173, 169, 169);
+    display: block;
+    border-bottom: 1px solid navy;
+    text-align: justify;
+    padding: 5px;
+}
+
+ul {
+    list-style-position: outside;
+    text-align: left;
+}
+
+.cinza {
+    color: rgb(54, 53, 53);
+}
+
+a:active {
+    color: grey;
+
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    list-style-type: none;
+    background-color: aqua;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a {
+    background-color: lavender;
+    display: block;
+    padding: 16px;
+
+}
